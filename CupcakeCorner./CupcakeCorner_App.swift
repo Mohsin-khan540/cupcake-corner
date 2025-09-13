@@ -12,6 +12,7 @@ struct CupcakeCorner_App: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .preferredColorScheme(.light)
         }
     }
 }
